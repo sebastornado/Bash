@@ -1,3 +1,5 @@
+----- ESPAÑOL ------
+
  Explicación del Sistema de Menús
 Menú Principal de Funcionalidades:
 
@@ -80,3 +82,88 @@ Instalación/remoción interactiva
 Ejecución de módulos seleccionados
 
 Limpieza y generación de reporte
+
+----- ENGLISH ------
+
+🧩 Menu System Explanation
+Main Features Menu:
+
+bash
+========================================
+  🛠️ ONBOARDING CONFIGURATION MENU  
+========================================
+
+Select additional features:
+
+1) Install specific SDKs (Node.js, Docker, Java, PHP)
+2) Configure development environment (Git, aliases, VSCode extensions)
+3) Basic security configurations (Firewall, SSH)
+4) ALL features above
+5) Continue with basic configuration
+
+Enter your choice (1-5): 
+Feature Selection:
+
+Each option activates specific modules
+
+Users can combine functionalities
+
+Option 4 activates all advanced modules
+
+Confirmation Menus:
+
+Prompts before each important action
+
+Supports automatic mode with -y
+
+Example: "Install missing software (5 packages)?"
+
+🚦 How to Use the Script
+Basic execution:
+
+bash
+chmod +x dev-onboarding-toolkit.sh
+./dev-onboarding-toolkit.sh
+Automatic mode (no confirmations):
+
+bash
+./dev-onboarding-toolkit.sh -y
+Specific features:
+
+The script will display a menu to select advanced modules
+
+📊 Professional Outputs
+Execution Log:
+
+Everything saved in onboarding.log
+
+HTML Report:
+
+Generates a professional report with:
+
+Action summary
+
+Installation status
+
+Applied configurations
+
+Post-execution recommendations
+
+Exit Code:
+
+0: Success
+
+1: Error with details in the log
+
+🔄 Complete Workflow
+System detection
+
+Advanced feature selection
+
+Installed software analysis
+
+Interactive installation/removal
+
+Execution of selected modules
+
+Cleanup and report generation
